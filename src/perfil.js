@@ -4,9 +4,7 @@ import './perfil.css';
 function perfil(){
     return(
         <div>
-            <nav>
-                <Nav></Nav>
-            </nav>
+            <h1>Perfil 1</h1>
         </div>
     );
 }
