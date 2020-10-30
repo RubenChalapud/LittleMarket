@@ -1,3 +1,6 @@
+# LittleMarket
+LittleMarket - Proyecto para Desarrollo De Experiencias Multimedia Para La Web. Por: Rubén Darío Chalapud, Juan Camilo Gómez y Daniela Tirado.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
