@@ -1,7 +1,7 @@
 # LittleMarket
 LittleMarket - Proyecto para Desarrollo De Experiencias Multimedia Para La Web. Por: Rubén Darío Chalapud, Juan Camilo Gómez y Daniela Tirado.
 
-Holassss esto es una prueba
+Holassss esto es una prueba - Esto es una prueba desde GITHUB
 
 # Getting Started with Create React App
 
