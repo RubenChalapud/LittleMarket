@@ -1,0 +1,6 @@
+.o-nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 1rem;
+}

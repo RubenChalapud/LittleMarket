@@ -1,0 +1,9 @@
+.o-links-container{
+    display: flex;
+    justify-content: space-between;
+}
+.o-links {
+    color: white;
+    margin: 0 1rem;
+    outline: none;
+}
