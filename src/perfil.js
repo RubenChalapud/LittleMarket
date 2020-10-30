@@ -5,9 +5,6 @@ import Nav from "./Componets/Nav/Nav.js"
 function perfil(){
     return(
         <div>
-            <nav>
-                <Nav></Nav>
-            </nav>
         </div>
     );
 }
