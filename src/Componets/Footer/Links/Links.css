@@ -1,11 +1,10 @@
-.o-link-container{
+.o-links-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
 .o-links {
     color: white;
-    margin: 0 1rem;
+    margin: 0.5rem;
     outline: none;
     font-family: 'Roboto', sans-serif;
 }

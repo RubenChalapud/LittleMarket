@@ -7,7 +7,8 @@ function Link(props){
 
 function Links(){
     return(
-        <div className="o-link-container">
+        <div className="o-links-container">
+            <Link url="#" texto="Inicio"/>
             <Link url="#" texto="¿Quienes somos?"/>
             <Link url="#" texto="Emprendimientos"/>
             <Link url="#" texto="Servicios"/>

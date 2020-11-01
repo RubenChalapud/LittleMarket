@@ -1,0 +1,12 @@
+.o-container-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.o-container-img{
+    width: 3rem;
+    margin: 1rem;
+}
+.o-img {
+    width: 100%;
+}
