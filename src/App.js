@@ -4,6 +4,8 @@ import Redes from "./Componets/Footer/RedesSociales/Redes.js"
 import './App.css';
 import Banner from "./Banner.png"
 import BotonesIncio from "./Componets/Inicio/Botones-Inicio/Botones-Inicio.js";
+import ContenedorCard from "./Componets/Emprendimientos/ContenedorCard/ContenedorCard.js";
+
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         </div>
         <BotonesIncio></BotonesIncio>
       </header>
+      <div>
+        <ContenedorCard></ContenedorCard>
+      </div>
       <footer className="o-footer">
         <Footer></Footer>
         <div className="o-redes">
