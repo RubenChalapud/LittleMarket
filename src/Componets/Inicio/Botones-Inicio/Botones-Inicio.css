@@ -1,0 +1,26 @@
+.o-botonesinicio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.o-boton {
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 10px 0px 25px 3px rgba(133,133,133,1);
+    padding: 0.5rem 0;
+    height: 5rem;
+    margin: 2rem;
+}
+.o-img-botones{
+    width: 20%;
+}
+.o-title-boton{
+    color:#26394D;
+    margin: 0;
+}
