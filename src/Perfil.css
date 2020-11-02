@@ -1,0 +1,17 @@
+.o-perfil-container{
+    margin: 0;
+    padding: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    min-height: 100vh;
+    background-image: url(Componets/Perfil/Mask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #F7F8FB;
+}
+
+.o-nav{
+    background-color: #26394D;
+  }

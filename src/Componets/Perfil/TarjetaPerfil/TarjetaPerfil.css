@@ -1,0 +1,40 @@
+.o-tarjeta-perfil{
+    height: 25rem;
+    width: 61rem;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: #F4F3EE;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.o-img-perfil{
+    margin-left: -7rem;
+}
+
+.o-title-perfil {
+    font-family: roboto;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+
+.o-contact-perfil {
+    font-family: roboto;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 2rem;
+    margin-top: -2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.o-perfil-icon {
+    color: black;
+}
