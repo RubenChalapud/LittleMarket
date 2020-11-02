@@ -29,6 +29,25 @@
     margin-left: 1rem;
 }
 
+.o-buttoncard{
+    padding: 0.6rem;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background: white;
+	color: black;
+	font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.4s ease;
+    transform: translateX(10rem) translateY(-3rem)
+}
+
+.o-buttoncard:hover{
+    background: black;
+	color: white
+}
+
 .o-card:hover .o-info-card{
     opacity: 1;
     transform: translateY(0px);
