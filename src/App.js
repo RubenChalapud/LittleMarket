@@ -5,6 +5,7 @@ import './App.css';
 import Banner from "./Banner.png"
 import BotonesIncio from "./Componets/Inicio/Botones-Inicio/Botones-Inicio.js";
 import ContenedorCard from "./Componets/Emprendimientos/ContenedorCard/ContenedorCard.js";
+import ContenedorCat from "./Componets/Emprendimientos/ContenedorCat/ContenedorCat.js";
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
       </header>
       <div>
         <ContenedorCard></ContenedorCard>
+      </div>
+      <div>
+        <ContenedorCat></ContenedorCat>
       </div>
       <footer className="o-footer">
         <Footer></Footer>

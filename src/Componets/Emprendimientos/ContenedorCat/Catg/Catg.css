@@ -1,0 +1,39 @@
+.o-info-cardg{
+    width: 150px;
+	height: 130px;
+	border-radius: 15px;
+    background: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+	transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0,0,0, 0.5);
+    border-color: lightblue;
+}
+
+.o-info-cardg:hover {
+    transform: translateY(3px);
+    background: black;
+    color: white;
+}
+
+.o-button{
+    background: none;
+    border-color: white;
+    border: none;
+}
+
+
+
+
+.o-buttontext{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*Material design*/
+.material-icons.md-86 { font-size: 86px; }
+.material-icons.md-dark { color: rgb(0, 0, 0); }
+.material-icons.md-dark:hover { color: white; }
