@@ -6,6 +6,7 @@ import Banner from "./BannerEmprendimientos.png"
 import BotonesIncio from "./Componets/Inicio/Botones-Inicio/Botones-Inicio.js";
 import ContenedorCard from "./Componets/Emprendimientos/ContenedorCard/ContenedorCard.js";
 import ContenedorCat from "./Componets/Emprendimientos/ContenedorCat/ContenedorCat.js";
+import "./Componets/Perfil/TarjetaPerfil/TarjetaPerfil.css"
 
 
 function Emprendimientos() {
@@ -21,10 +22,12 @@ function Emprendimientos() {
         <BotonesIncio></BotonesIncio>
       </header>
       <div>
+      <h1 className="o-title-perfil">Emprendimientos Destacados</h1>
         <ContenedorCard></ContenedorCard>
         <ContenedorCard></ContenedorCard>
       </div>
       <div>
+      <h1 className="o-title-perfil">Categorias</h1>
         <ContenedorCat></ContenedorCat>
         <ContenedorCat></ContenedorCat>
       </div>
