@@ -6,6 +6,7 @@ import Banner from "./Banner.png"
 import BotonesIncio from "./Componets/Inicio/Botones-Inicio/Botones-Inicio.js";
 import ContenedorCard from "./Componets/Emprendimientos/ContenedorCard/ContenedorCard.js";
 import ContenedorCat from "./Componets/Emprendimientos/ContenedorCat/ContenedorCat.js";
+import Ofertas from "./Componets/Perfil/Productos/Ofertas/Ofertas.js";
 
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </div>
         <BotonesIncio></BotonesIncio>
       </header>
+      <div className="o-container-app">
+        <Ofertas></Ofertas>
+      </div>
       <div>
         <ContenedorCard></ContenedorCard>
       </div>
