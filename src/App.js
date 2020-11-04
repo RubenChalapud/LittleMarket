@@ -5,8 +5,8 @@ import './App.css';
 import Banner from "./Banner.png"
 import BotonesIncio from "./Componets/Inicio/Botones-Inicio/Botones-Inicio.js";
 import ContenedorCard from "./Componets/Emprendimientos/ContenedorCard/ContenedorCard.js";
-import ContenedorCat from "./Componets/Emprendimientos/ContenedorCat/ContenedorCat.js";
-import Ofertas from "./Componets/Perfil/Productos/Ofertas/Ofertas.js";
+import "./Componets/Perfil/TarjetaPerfil/TarjetaPerfil.css"
+import OfertasInicio from "./Componets/OfertasInicio/OfertasInicio.js";
 
 
 function App() {
@@ -22,13 +22,12 @@ function App() {
         <BotonesIncio></BotonesIncio>
       </header>
       <div className="o-container-app">
-        <Ofertas></Ofertas>
+        <OfertasInicio></OfertasInicio>
       </div>
-      <div>
+      <h1 className="o-title-app">Emprendimientos y Productos:</h1>
+      <div className="o-container-app">
         <ContenedorCard></ContenedorCard>
-      </div>
-      <div>
-        <ContenedorCat></ContenedorCat>
+        <ContenedorCard></ContenedorCard>
       </div>
       <footer className="o-footer">
         <Footer></Footer>
