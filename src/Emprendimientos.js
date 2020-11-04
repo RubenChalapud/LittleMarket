@@ -22,12 +22,12 @@ function Emprendimientos() {
         <BotonesIncio></BotonesIncio>
       </header>
       <div>
-      <h1 className="o-title-perfil">Emprendimientos Destacados</h1>
+      <h1 className="o-title-app">Emprendimientos Destacados</h1>
         <ContenedorCard></ContenedorCard>
         <ContenedorCard></ContenedorCard>
       </div>
       <div>
-      <h1 className="o-title-perfil">Categorias</h1>
+      <h1 className="o-title-app">Categorias</h1>
         <ContenedorCat></ContenedorCat>
         <ContenedorCat></ContenedorCat>
       </div>
