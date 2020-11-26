@@ -1,0 +1,86 @@
+/*Res*/
+.o-resultado {
+    width: 49rem;
+    height: 12rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.o-container-logo-res {
+    width: 13rem;
+    background: #F7F8FB;
+    height: 12rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 2rem;
+}
+
+.o-img-empre {
+    max-width: 80%;
+}
+
+.o-container-contenido-res {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: baseline;
+    justify-content: center;
+    justify-items: center;
+}
+
+.o-nombre-emprendiemiento {
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    color: #26394D;
+    font-size: x-large;
+}
+
+.o-categoria {
+    margin: 0;
+    color: darkgray;
+    font-family: 'Roboto';
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.o-contacto-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.o-icon-contacto {
+    color: #26394D;
+    font-size: 1.6rem;
+}
+
+.o-contacto {
+    font-family: 'Roboto';
+    font-size: small;
+}
+
+.o-description-res {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: small;
+    font-weight: 400;
+}

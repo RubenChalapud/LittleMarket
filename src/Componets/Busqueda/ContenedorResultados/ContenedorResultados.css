@@ -1,0 +1,6 @@
+/*Estilos resultados*/
+.o-container-results {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+}

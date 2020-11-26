@@ -1,0 +1,13 @@
+.o-busqueda-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    min-height: 100vh;
+    background-color: #F7F8FB;
+    justify-content: center;
+}
+
+
