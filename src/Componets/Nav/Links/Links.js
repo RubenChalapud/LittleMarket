@@ -10,7 +10,7 @@ function Links(){
     return(
         <div className="o-link-container">
             <Link url="#" texto="¿Quienes somos?"/>
-            <Link url={Emprendimientos} texto="Emprendimientos"/>
+            <Link url="emprendimientos" texto="Emprendimientos"/>
             <Link url="#" texto="Servicios"/>
         </div>
     );
