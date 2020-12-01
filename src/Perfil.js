@@ -15,7 +15,7 @@ function Perfil(props) {
            <Nav></Nav>
         </nav>
         <div className="o-perfil-container">
-          <TarjetaPerfil srcimg={Lunder} title="Undertground Cocktails & Drinks" contacto="3003071555"></TarjetaPerfil>
+          <TarjetaPerfil srcimg={Lunder} title="Underground Cocktails & Drinks" contacto="3003071555"></TarjetaPerfil>
           <Productos></Productos>
           <AboutUs description="Emprendimiento Caleño, dedicado a la venta de deliciosos coctéles frutales."></AboutUs>      
         </div>

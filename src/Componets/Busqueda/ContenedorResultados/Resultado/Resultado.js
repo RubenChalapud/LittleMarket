@@ -1,5 +1,4 @@
 import React from "react";
-import BotonR from "./BotonR/BotonR";
 import "./Resultado.css"
 
 function Resultado({logo, nombre, cat, contacto, des, url}){
@@ -16,7 +15,7 @@ function Resultado({logo, nombre, cat, contacto, des, url}){
                     <p className="o-contacto">{contacto}</p>
                 </div>
                 <p className="o-description-res">{des}</p>
-                <BotonR url={url}></BotonR>
+                <a href={url}><button className="o-button">Visitar</button></a>
             </div>
         </div>
     );

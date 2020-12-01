@@ -84,3 +84,23 @@
     font-size: small;
     font-weight: 400;
 }
+.o-button{
+    padding: 0.6rem;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background: #26394D;
+	color: white;
+	font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.4s ease;
+    transform: translateX(10rem) translateY(-3rem)
+
+}
+
+.o-button:hover{
+    background: white;
+    color: #26394D;
+    
+}
