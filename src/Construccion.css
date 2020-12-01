@@ -1,0 +1,12 @@
+.o-perfil-container-cons{
+    margin: 0;
+    padding: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #6499CD, #F7F8FB);
+}
+
+.o-nav{
+    background-color: #26394D;
+  }

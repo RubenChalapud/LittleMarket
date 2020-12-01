@@ -4,20 +4,18 @@ import Nav from "./Componets/Nav/Nav.js"
 import AboutUs from "./Componets/Perfil/AboutUs/AboutUs.js";
 import Productos from "./Componets/Perfil/Productos/Productos.js";
 import TarjetaPerfil from "./Componets/Perfil/TarjetaPerfil/TarjetaPerfil.js";
-import './Perfil.css';
-import Lunder from "./Componets/Perfil/TarjetaPerfil/ImgPerfil/LUnderground.png"
+import './Construccion.css';
+import Lunder from "./Componets/Perfil/TarjetaPerfil/ImgPerfil/gear.png"
 
-
-function Perfil(props) {
+function Construccion(props) {
     return (
       <div className="o-Perfil">
         <nav class="o-nav">
            <Nav></Nav>
         </nav>
-        <div className="o-perfil-container">
-          <TarjetaPerfil srcimg={Lunder} title="Undertground Cocktails & Drinks" contacto="3003071555"></TarjetaPerfil>
-          <Productos></Productos>
-          <AboutUs description="Emprendimiento Caleño, dedicado a la venta de deliciosos coctéles frutales."></AboutUs>      
+        <div className="o-perfil-container-cons">
+          <TarjetaPerfil srcimg={Lunder} title="Estamos construyéndo este perfil..." contacto="XXXXXXXX"></TarjetaPerfil>
+          <AboutUs description="Estamos construyéndo este espacio..."></AboutUs>     
         </div>
         <footer className="o-footer">
           <Footer></Footer>
@@ -29,4 +27,4 @@ function Perfil(props) {
     );
   }
   
-  export default Perfil;
+  export default Construccion;

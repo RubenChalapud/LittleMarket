@@ -4,11 +4,11 @@ import ImgPerfil from "./ImgPerfil/ImgPerfil"
 import Lunder from "./ImgPerfil/LUnderground.png"
 import './TarjetaPerfil.css';
 
-function TarjetaPerfil(props){
+function TarjetaPerfil({srcimg, title, contacto}){
     return(
         <div className="o-tarjeta-perfil">
-            <ImgPerfil className="o-img-perfil" srcimg={Lunder}></ImgPerfil>
-            <CardInfo title="Undertground Cocktails & Drinks" contacto="3003071555"></CardInfo> 
+            <ImgPerfil className="o-img-perfil" srcimg={srcimg}></ImgPerfil>
+            <CardInfo title={title} contacto={contacto}></CardInfo> 
         </div>
     );
 }
