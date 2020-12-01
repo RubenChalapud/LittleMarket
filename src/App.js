@@ -11,6 +11,7 @@ import Inicio from "./Inicio.js";
 import Emprendimientos from "./Emprendimientos.js";
 import Perfil from "./Perfil.js";
 import Busqueda from "./Busqueda.js";
+import Construccion from "./Construccion.js";
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/emprendimientos" exact component={Emprendimientos}/>
         <Route path="/perfil" exact component={Perfil}/>
         <Route path="/busqueda" exact component={Busqueda}/>
+        <Route path="/construccion" exact component={Construccion}/>
       </Switch>
     </Router>
   );
