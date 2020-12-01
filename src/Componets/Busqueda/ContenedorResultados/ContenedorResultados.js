@@ -19,7 +19,7 @@ class ContenedorResultados extends React.Component {
                     this.state.data.map((emprendimientodata) => {
                         return (
                             <Resultado logo={emprendimientodata.logo}
-                                nombre={emprendimientodata.nombre} cat={emprendimientodata.categoria} contacto={emprendimientodata.contacto} des={emprendimientodata.descripcion} key={`key ${emprendimientodata.id}`} />
+                                nombre={emprendimientodata.nombre} cat={emprendimientodata.categoria} contacto={emprendimientodata.contacto} des={emprendimientodata.descripcion}  url={emprendimientodata.url} key={`key ${emprendimientodata.id}`} />
                         )
                     })
                 }
