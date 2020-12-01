@@ -1,7 +1,8 @@
 import React from "react";
+import BotonR from "./BotonR/BotonR";
 import "./Resultado.css"
 
-function Resultado({logo, nombre, cat, contacto, des}){
+function Resultado({logo, nombre, cat, contacto, des, url}){
     return(
         <div className="o-resultado">
             <div className="o-container-logo-res">
@@ -15,6 +16,7 @@ function Resultado({logo, nombre, cat, contacto, des}){
                     <p className="o-contacto">{contacto}</p>
                 </div>
                 <p className="o-description-res">{des}</p>
+                <BotonR url={url}></BotonR>
             </div>
         </div>
     );
