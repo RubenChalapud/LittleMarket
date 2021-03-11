@@ -9,4 +9,4 @@ Lenguajes: ReactJS 16.8.6.
 
 Librerias: React Router 5.2.0.
 
-Captura: 
+Captura: https://github.com/RubenChalapud/LittleMarket/blob/master/Little%20market.png
